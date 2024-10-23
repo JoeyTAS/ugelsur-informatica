@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/styleRegistro.css">
+
+</head>
+<body>
+
+
+
+    <div class="container">
+        
+        <div class="form-container">
+            <h1 class="form-title">Registro</h1>
+            <form>
+                <!-- Campos del formulario -->
+                <div class="form-group">
+                    <input type="text" name="floating_dni" id="floating_dni" class="form-input" placeholder=" " required />
+                    <label for="floating_dni" class="form-label">DNI</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="floating_first_name" id="floating_first_name" class="form-input" placeholder=" " required />
+                    <label for="floating_first_name" class="form-label">Nombres</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="floating_last_name" id="floating_last_name" class="form-input" placeholder=" " required />
+                    <label for="floating_last_name" class="form-label">Apellidos</label>
+                </div>
+                <div class="form-group">
+                    <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="floating_phone" id="floating_phone" class="form-input" placeholder=" " required />
+                    <label for="floating_phone" class="form-label">Teléfono</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="floating_email" id="floating_email" class="form-input" placeholder=" " required />
+                    <label for="floating_email" class="form-label">Correo Electrónico</label>
+                </div>
+                <div class="form-group">
+                    <input type="password" name="floating_password" id="floating_password" class="form-input" placeholder=" " required />
+                    <label for="floating_password" class="form-label">Contraseña</label>
+                </div>
+                <button type="submit" class="submit-button">Enviar</button>
+            </form>
+        </div>
+
+        <div class="box">
+            <img src="img/ugelsur.png" alt="Descripción de la imagen" class="box-image" />
+        </div>
+    </div>
+    
+    
+</body>
+</html>
