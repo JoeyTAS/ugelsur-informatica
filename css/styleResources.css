@@ -1,0 +1,49 @@
+/* Estilo para el menú offcanvas */
+body {
+    background-image: url(../img/Frame%204.svg);
+    background-size: cover; /* La imagen cubrirá toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    margin: 0; /* Elimina márgenes del body */
+    padding: 0; /* Elimina relleno del body */
+    height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
+    font-family: Arial, sans-serif; /* Establecer fuente general */
+}
+
+
+.offcanvas {
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+}
+
+.offcanvas.show {
+    transform: translateX(0);
+}
+
+.offcanvas .dropdown-menu {
+    position: absolute;
+    /* Sacamos el submenú del flujo normal */
+    top: 100%;
+    /* Posicionamos el submenú justo debajo del botón que lo activa */
+    left: 0;
+    z-index: 1;
+    /* Aseguramos que el submenú esté encima de otros elementos */
+    margin-top: -1px;
+    /* Ajustamos para evitar un pequeño espacio entre el botón y el submenú */
+    padding: 0.5rem 0;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.dropdown-menu.show {
+    opacity: 1;
+    transform: translateY(0);
+}
