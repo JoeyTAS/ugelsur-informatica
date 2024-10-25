@@ -44,13 +44,7 @@ git clone https://github.com/JoeyTAS/ugelsur-informatica.git
 ## Contribuciones
 Si deseas contribuir al proyecto, siéntete libre de hacer un fork y enviar pull requests. Asegúrate de seguir las mejores prácticas de codificación y documentar tus cambios.
 
-## Licencia
-Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE en el repositorio.
-```
 
-### Instrucciones para Usar el README
-1. Personaliza la sección de descripción con información específica sobre tu proyecto.
-2. Asegúrate de incluir cualquier otro detalle que consideres importante.
-3. Guarda este texto como `README.md` en la raíz de tu repositorio.
+
 
 ¡Espero que te sea útil! Si necesitas más cambios, házmelo saber.
