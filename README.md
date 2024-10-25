@@ -41,10 +41,3 @@ git clone https://github.com/JoeyTAS/ugelsur-informatica.git
 1. Coloca el directorio del proyecto en la carpeta `htdocs` de XAMPP (por defecto en `C:\xampp\htdocs\`).
 2. Accede a la aplicación en tu navegador mediante `http://localhost/ugelsur-informatica`.
 
-## Contribuciones
-Si deseas contribuir al proyecto, siéntete libre de hacer un fork y enviar pull requests. Asegúrate de seguir las mejores prácticas de codificación y documentar tus cambios.
-
-
-
-
-¡Espero que te sea útil! Si necesitas más cambios, házmelo saber.
