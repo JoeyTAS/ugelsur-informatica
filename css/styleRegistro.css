@@ -21,7 +21,7 @@ body {
 
 .form-container {
     max-width: 400px; /* Ancho máximo del formulario */
-    max-height: 461px;
+    max-height: 506px;
     width: 100%; /* Ancho completo en pantallas pequeñas */
     padding: 32px; /* Relleno interno */
     background-color: white; /* Color de fondo del formulario */
